@@ -13,6 +13,7 @@ print('The result is:', result)
 # second condition
 result = substrct_or_sum(10, 9)
 print('The result is:', result)
+#***********************************************************************************************************************
 
 
 # Exercise nr.2
@@ -25,6 +26,7 @@ for i in range(0, 6):
     print('Curent number', i , 'Previous number', previus_num, 'Sum: ', num_sum)
     # modify previous number and set it to the current number
     previus_num = i
+#************************************************************************************************************************
 
 
 # Exercise nr.3
@@ -34,7 +36,7 @@ print('Original String is: ', user_input)
 
 #get the length of a string
 size_input = len(user_input)
-
+# first method
 # iterate a each character of a string
 # start: 0 to start with first character
 # stop: size-1 because index starts with 0
@@ -42,6 +44,15 @@ size_input = len(user_input)
 print('Printing only even index char')
 for i in range(0, size_input - 1, 2):
     print("index[", i, "]", user_input[i])
+
+#second method
+# using list slicing
+# convert string to list
+# pick only even index chars
+x = list(user_input)
+for i in x[0::2]:
+    print(i)
+#************************************************************************************************************************
 
 
 
