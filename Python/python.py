@@ -1,6 +1,5 @@
 # Exercise nr.1
 # Use two integer numbers: if their substracting is negative return the result,othervise return their sum.
-
 def substrct_or_sum(num1, num2):
     substract = num1 - num2
     if substract < 0:
@@ -15,9 +14,9 @@ print('The result is:', result)
 result = substrct_or_sum(10, 9)
 print('The result is:', result)
 
+
 # Exercise nr.2
 # Write a program to iterate the first numbers and in each iteration, print the sum of the current and previous number.
-
 print('Printing the curent and previous number sum in a range (5)')
 previus_num = 0
 # loop from 1 to 5
@@ -28,6 +27,21 @@ for i in range(0, 6):
     previus_num = i
 
 
+# Exercise nr.3
+# Print characters from a string that are present at even index number.
+user_input = input('Enter your word: ')
+print('Original String is: ', user_input)
+
+#get the length of a string
+size_input = len(user_input)
+
+# iterate a each character of a string
+# start: 0 to start with first character
+# stop: size-1 because index starts with 0
+# step: 2 to get the characters present at even index like 0, 2, 4
+print('Printing only even index char')
+for i in range(0, size_input - 1, 2):
+    print("index[", i, "]", user_input[i])
 
 
 
