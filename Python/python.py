@@ -55,4 +55,14 @@ for i in x[0::2]:
 #************************************************************************************************************************
 
 
+# Exercise nr.4
+# Write a program to remove characters from a string starting from zero up to n and return a new string.
+def remove_chars(text, n):
+    print('Original string: ', text)
+    z = text[n:]
+    return z
 
+print("Removing characters from a string")
+print(remove_chars('python', 4))
+print(remove_chars('python', 2))
+#************************************************************************************************************************
