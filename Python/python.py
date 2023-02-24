@@ -66,3 +66,29 @@ print("Removing characters from a string")
 print(remove_chars('python', 4))
 print(remove_chars('python', 2))
 #************************************************************************************************************************
+
+# Exercise nr.5
+# Check if the first and last number of a list is the same.
+
+
+def check_num(numberList):
+    print('List number is', numberList)
+
+    first_num = numberList[0]
+    last_num = numberList[-1]
+
+    if first_num == last_num:
+        return True
+    else:
+        return False
+
+list_one = [1, 2, 3, 4, 5, 1]
+print('Result is', check_num(list_one))
+
+list_two = [5, 10, 15, 20, 25, 30]
+print('Result is', check_num(list_two))
+    
+    
+
+
+
