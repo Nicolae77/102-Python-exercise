@@ -87,8 +87,17 @@ print('Result is', check_num(list_one))
 
 list_two = [5, 10, 15, 20, 25, 30]
 print('Result is', check_num(list_two))
-    
-    
+
+
+# Exercise nr.6
+# Display numbers divisible by 2 from a list
+
+list_num = [1, 2, 3, 4, 5, 6, 7, 8]
+print('Divisible by 2')
+for num in list_num:
+    if num % 2 == 0:
+        print(num)
+
 
 
 
