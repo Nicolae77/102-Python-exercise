@@ -104,5 +104,12 @@ for num in list_num:
 msg = "Python is the best. With Python you can develop a cool web app. Python."
 result = msg.count("Python")
 print('Python appears', result, 'times')
+
+
+# Exercise nr.8
+for num in range(10):
+    for i in range(num):
+        print(num, end=" ")
+    print("\n")
     
 
