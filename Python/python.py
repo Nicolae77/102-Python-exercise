@@ -143,3 +143,30 @@ def palindrome(number):
 palindrome(121)
 palindrome(125)
 
+
+# Exercise nr.10
+# Given a two list of numbers, write a program to create a new list such that new list should contain odd numbers from first list and even numbers from the second list.
+
+def check_num(lst1, lst2):
+    new_list = []
+
+    # iterate first list
+    for num in lst1:
+        # check if current number is odd
+        if num % 2 != 0:
+            # add odd number to the new_list
+            new_list.append(num)
+
+    # iterate second list
+    for num in lst2:
+        # check if current number is even
+        if num % 2 == 0:
+            new_list.append(num)
+    return new_list
+
+lst1 = [1, 2, 3, 4, 5, 6]
+lst2 = [20, 21, 22, 23, 24]
+print('Result list: ', check_num(lst1, lst2))
+
+
+# Exercise nr.11
