@@ -99,5 +99,10 @@ for num in list_num:
         print(num)
 
 
-
+# Exercise nr.7
+# Write a program to find how many times "Python" appears in the given message.
+msg = "Python is the best. With Python you can develop a cool web app. Python."
+result = msg.count("Python")
+print('Python appears', result, 'times')
+    
 
