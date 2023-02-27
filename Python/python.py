@@ -170,3 +170,13 @@ print('Result list: ', check_num(lst1, lst2))
 
 
 # Exercise nr.11
+# Write a program to reverse an integer.
+number = 7536
+print("Given number", number)
+print('Reversed is: ')
+while number > 0:
+    # get the last digit
+    digit = number % 10
+    # remove the last digit and repeat the loop
+    number = number // 10
+    print(digit, end="")
