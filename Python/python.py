@@ -244,3 +244,11 @@ with open("new_file_txt", "w") as fp:
             fp.write(line)
         # in each iteration reduce the count
         count += 1
+
+
+# Exercise nr.17
+# Writye a program to take three inputs.
+first_name, last_name, address = input("Enter your name, last name and address with space:").split()
+print("Your first name: ", first_name)
+print("Your last nama: ", last_name)
+print("Your address: ", address)
