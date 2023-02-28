@@ -180,3 +180,29 @@ while number > 0:
     # remove the last digit and repeat the loop
     number = number // 10
     print(digit, end="")
+    
+
+
+# Exercise nr.12
+# Print multiplication table form 1 to 10.
+print()
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(i * j, end=" ")
+    print("\t\t")
+
+
+# -------------------------Python Input exercise-------------------------
+
+# Exercise nr.13
+# Write a program to accept two numbers from the user and calculate multiplication
+num1 = int(input('Enter first num: '))
+num2 = int(input('Enter second num: '))
+result = num1 * num2
+print('Multiplication is: ', result)
+
+
+# Exercise nr.14
+# Display float number with 2 decimal.
+num = 23.94857674
+print('%.2f' % num)
