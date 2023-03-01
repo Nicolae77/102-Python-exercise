@@ -254,32 +254,53 @@
 # print("Your address: ", address)
 
 
-# Exercise nr.18
-# Write a program to display the number divisible by 5,
-# if the number is greater than 150, then skip it and move to the next number,
-# and if the number is greater than 500, then stop the loop.
+# # Exercise nr.18
+# # Write a program to display the number divisible by 5,
+# # if the number is greater than 150, then skip it and move to the next number,
+# # and if the number is greater than 500, then stop the loop.
 
-numbers = [12, 15, 25, 40, 150, 175, 200, 525]
-new_num = []
-for num in numbers:
-    if num > 500:
-        break
-    elif num > 150:
-        continue
-    elif num % 5 == 0:
-        new_num.append(num)
-print(new_num)
+# numbers = [12, 15, 25, 40, 150, 175, 200, 525]
+# new_num = []
+# for num in numbers:
+#     if num > 500:
+#         break
+#     elif num > 150:
+#         continue
+#     elif num % 5 == 0:
+#         new_num.append(num)
+# print(new_num)
 
 
-# Exercise nr.19
-# Write a program to Count the total number of digits in a number
+# # Exercise nr.19
+# # Write a program to Count the total number of digits in a number
 
-number = 12345678
-count = 0
-while number != 0:
-    # floor division
-    # to reduce the last digit from number
-    number = number // 10
-    # increment counter by 1
-    count = count + 1
-print("Toatal digits are: ", count)
+# number = 12345678
+# count = 0
+# while number != 0:
+#     # floor division
+#     # to reduce the last digit from number
+#     number = number // 10
+#     # increment counter by 1
+#     count = count + 1
+# print("Toatal digits are: ", count)
+
+
+# Exercise nr.20
+# Print list in reverse order using a loop
+
+list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+new_list = list(reversed(list1))
+print("Initial list is: ", list1)
+for item in new_list:
+    print(item)
+print("Reversed list is: ", new_list)
+    
+
+
+
+
+
+
+
+        
+    
