@@ -254,7 +254,7 @@
 # print("Your address: ", address)
 
 
-# Exercise nr.17
+# Exercise nr.18
 # Write a program to display the number divisible by 5,
 # if the number is greater than 150, then skip it and move to the next number,
 # and if the number is greater than 500, then stop the loop.
@@ -270,3 +270,16 @@ for num in numbers:
         new_num.append(num)
 print(new_num)
 
+
+# Exercise nr.19
+# Write a program to Count the total number of digits in a number
+
+number = 12345678
+count = 0
+while number != 0:
+    # floor division
+    # to reduce the last digit from number
+    number = number // 10
+    # increment counter by 1
+    count = count + 1
+print("Toatal digits are: ", count)
