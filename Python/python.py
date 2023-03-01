@@ -285,16 +285,24 @@
 # print("Toatal digits are: ", count)
 
 
-# Exercise nr.20
-# Print list in reverse order using a loop
+# # Exercise nr.20
+# # Print list in reverse order using a loop
 
-list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-new_list = list(reversed(list1))
-print("Initial list is: ", list1)
-for item in new_list:
-    print(item)
-print("Reversed list is: ", new_list)
-    
+# list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# new_list = list(reversed(list1))
+# print("Initial list is: ", list1)
+# for item in new_list:
+#     print(item)
+# print("Reversed list is: ", new_list)
+
+
+# Exercise nr.21
+# Use else block to display a message "Done" after successful execution of for loop.
+
+for i in range(1, 6):
+    print(i)
+else:
+    print("Done!")
 
 
 
