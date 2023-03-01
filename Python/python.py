@@ -328,23 +328,40 @@
 
 
 
-# Exercise nr.22
-# Display Fibonacci series up to 10 terms
+# # Exercise nr.22
+# # Display Fibonacci series up to 10 terms
 
-num1 = 0
-num2 = 1
+# num1 = 0
+# num2 = 1
 
-print("Fibonacci sequence:")
-# run loop 10 times
-for i in range(10):
-    # print next number of a series
-    print(num1, end="  ")
-    # add last two numbers to get next number
-    res = num1 + num2
-    # update values
-    num1 = num2
-    num2 = res
-print(res)
+# print("Fibonacci sequence:")
+# # run loop 10 times
+# for i in range(10):
+#     # print next number of a series
+#     print(num1, end="  ")
+#     # add last two numbers to get next number
+#     res = num1 + num2
+#     # update values
+#     num1 = num2
+#     num2 = res
+# print(res)
+
+
+# Exercise nr.23
+# Find the factorial of a given number
+
+num = int(input("Enter a number to find it's factorial: "))
+factorial = 1
+if num < 0:
+    print("Factorial does not exist for negative numbers")
+elif num == 0:
+    print("Factorial of 0 is 1")
+else:
+    # run loop 
+    for i in range(1, num+1):
+        # multiply factorial by current number
+        factorial = factorial * i
+    print("The factorial number of", num, "is", factorial)
 
 
 
