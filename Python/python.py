@@ -305,29 +305,46 @@
 #     print("Done!")
 
 
+# # Exercise nr.22
+# # Write a program to display all prime numbers within a range
+# # ex: 29 is a prime number because no other whole number multiply together to make it.
+
+
+# # range
+# start = 25
+# end = 50
+# print("Prime numbers between", start, "and", end, "are: ")
+# for num in range(start, end+1):
+#     # all prime numbers are greater than 1
+#     # if number is less than or equal to 1, it is not prime
+#     if num > 1:
+#         for i in range(2, num):
+#             if (num % i) == 0:
+#                 # not a prime number so break inner loop and
+#                 # look for next number
+#                 break
+#         else:
+#             print(num)
+
+
+
 # Exercise nr.22
-# Write a program to display all prime numbers within a range
-# ex: 29 is a prime number because no other whole number multiply together to make it.
+# Display Fibonacci series up to 10 terms
 
+num1 = 0
+num2 = 1
 
-# range
-start = 25
-end = 50
-print("Prime numbers between", start, "and", end, "are: ")
-for num in range(start, end+1):
-    # all prime numbers are greater than 1
-    # if number is less than or equal to 1, it is not prime
-    if num > 1:
-        for i in range(2, num):
-            if (num % i) == 0:
-                # not a prime number so break inner loop and
-                # look for next number
-                break
-        else:
-            print(num)
-
-
-
+print("Fibonacci sequence:")
+# run loop 10 times
+for i in range(10):
+    # print next number of a series
+    print(num1, end="  ")
+    # add last two numbers to get next number
+    res = num1 + num2
+    # update values
+    num1 = num2
+    num2 = res
+print(res)
 
 
 
