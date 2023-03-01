@@ -223,32 +223,50 @@
 # print("User List:", numbers)
 
 
-# Exercise nr.16
-# Write all content of a given file into a new file by skipping line 5
-# read test.txt
-with open("test.txt", "r") as fp:
-    # read all lines from a file
-    lines = fp.readlines()
+# # Exercise nr.16
+# # Write all content of a given file into a new file by skipping line 5
+# # read test.txt
+# with open("test.txt", "r") as fp:
+#     # read all lines from a file
+#     lines = fp.readlines()
 
-# open new file in write mode
-with open("new_file_txt", "w") as fp:
-    count = 0
-    # itertate each lines from a test.txt
-    for line in lines:
-        # skip 5th lines
-        if count == 4:
-            count += 1
-            continue
-        else:
-            # write current line
-            fp.write(line)
-        # in each iteration reduce the count
-        count += 1
+# # open new file in write mode
+# with open("new_file_txt", "w") as fp:
+#     count = 0
+#     # itertate each lines from a test.txt
+#     for line in lines:
+#         # skip 5th lines
+#         if count == 4:
+#             count += 1
+#             continue
+#         else:
+#             # write current line
+#             fp.write(line)
+#         # in each iteration reduce the count
+#         count += 1
+
+
+# # Exercise nr.17
+# # Writye a program to take three inputs.
+# first_name, last_name, address = input("Enter your name, last name and address with space:").split()
+# print("Your first name: ", first_name)
+# print("Your last nama: ", last_name)
+# print("Your address: ", address)
 
 
 # Exercise nr.17
-# Writye a program to take three inputs.
-first_name, last_name, address = input("Enter your name, last name and address with space:").split()
-print("Your first name: ", first_name)
-print("Your last nama: ", last_name)
-print("Your address: ", address)
+# Write a program to display the number divisible by 5,
+# if the number is greater than 150, then skip it and move to the next number,
+# and if the number is greater than 500, then stop the loop.
+
+numbers = [12, 15, 25, 40, 150, 175, 200, 525]
+new_num = []
+for num in numbers:
+    if num > 500:
+        break
+    elif num > 150:
+        continue
+    elif num % 5 == 0:
+        new_num.append(num)
+print(new_num)
+
