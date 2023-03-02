@@ -397,8 +397,51 @@ for num in range(1, number+1):
 
     # --------------------------- Python Functions -------------------
 
+# Exercise nr.28
+# Write a function with two arguments, name and age, and print their value.
+              # parameters
+def my_function(name, age):
+    # print value
+    print(name, age)
 
 
+# call function
+          # arguments
+my_function('Bob', 25)
 
+
+# Exercise nr.29
+# Create a function with variable length of arguments. (*args).
+
+def my_function(*args):
+    for num in args:
+        print(num)
+
+
+my_function(1, 2, 3, 4, 5)
+
+
+# Exercise nr.30
+# Create a function such that can accept two variables and calculate 
+# addition, subtraction, multiplication, ans division.
+def my_function(a, b):
+    return a + b, a - b, a * b, a / b
+
+
+add, sub, mul, div = my_function(20, 10)
+print('Addition of number is: ', add)
+print('Subtraction of number is: ', sub)
+print('Multiplication of number is: ', mul)
+print('Division of number is: ', div)
         
     
+# Exercise nr.30
+# Assign different name to function and call it through the new name.
+
+def student(name, age):
+    print(name, age)
+
+
+student('Bod', 23)
+new_student = student
+new_student('Steve', 34)
