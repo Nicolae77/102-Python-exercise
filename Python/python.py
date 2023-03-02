@@ -448,4 +448,114 @@ new_student('Steve', 34)
 
 
 # Exercise nr.32
-# Generate a Pytho list of all even numbers between 2 and 20
+# Generate a Python list of all even numbers between 2 and 20.
+
+lst = []
+for i in range(2, 20):
+    if i % 2 == 0:
+        lst.append(i)
+print(lst)
+
+
+# Exercise nr.33
+# Find the largest item from a given list.
+
+x = [4, 6, 32, 24, 12, 2]
+for i in x:
+    if i == max(x):
+        print(i)
+
+
+# -----------------------------Python String Exercise--------------------
+# Exercise nr.34
+
+
+
+
+
+
+
+# -----------------------------Python Data Structure--------------------
+
+
+
+
+
+
+
+# -----------------------------Python List Exercise--------------------
+
+
+
+
+
+
+# -----------------------------Python Dictionary Exercise----------------
+
+
+
+
+
+# -----------------------------Python Set Exercise----------------------
+
+
+
+
+
+
+
+# -----------------------------Python Date and Time Exercise---------------
+
+
+
+
+
+# --------------------------------------Python OOP-------------------------
+
+# Ex:
+class Student:
+    def __init__(self, name, age, grades):
+        self.name = name
+        self.age = age
+        self.grades = grades
+
+    def average_grade(self):
+        return sum(self.grades) / len(self.grades)
+
+
+obj1 = Student("Bob", 35, (78, 89, 92))
+print(obj1.name, 'has', obj1.age, 'years old.')
+print('Average grade is', "%.2f" % obj1.average_grade())
+
+obj2 = Student("Smith", 25, (64, 75, 81))
+print(obj2.name, 'has', obj2.age, 'years old.')
+print('Average grade is', "%.2f" % obj2.average_grade())
+
+
+
+# -----------------------------Python JSON Exercise--------------------
+
+
+ 
+
+# -----------------------------Python NumPy Exercise--------------------
+
+
+
+
+
+# -----------------------------Python Pandas Exercise--------------------
+
+
+
+# -----------------------------Python Matlib Exercise--------------------
+
+
+
+# -----------------------------Random Data Generator Exercise-------------
+
+
+
+
+# -----------------------------Python Database Exercise--------------------
+
