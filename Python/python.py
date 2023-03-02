@@ -254,8 +254,29 @@ print("Your last nama: ", last_name)
 print("Your address: ", address)
 
 
+# Exercise nr. 18
+# Write a program to accept a number from user and calculate
+# the sum of all numbers from 1 to given number.
+
+number = int(input('Enter the number: '))
+total = 0
+
+for num in range(1, number+1):
+    total += num
+print('The sum of all numbers is: ', total)
+
+
+# Exercise nr. 19
+# Write a program to print multiplication table of a given number.
+
+number = int(input('Enter the number: '))
+
+for num in range(1, 11):
+    result = num * number
+    print(result)
+
 #-------------------------------------------Python Loop -------------
-# Exercise nr.18
+# Exercise nr.20
 # Write a program to display the number divisible by 5,
 # if the number is greater than 150, then skip it and move to the next number,
 # and if the number is greater than 500, then stop the loop.
@@ -272,7 +293,7 @@ for num in numbers:
 print(new_num)
 
 
-# Exercise nr.19
+# Exercise nr.21
 # Write a program to Count the total number of digits in a number
 
 number = 12345678
@@ -286,7 +307,7 @@ while number != 0:
 print("Toatal digits are: ", count)
 
 
-# Exercise nr.20
+# Exercise nr.22
 # Print list in reverse order using a loop
 
 list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -297,7 +318,7 @@ for item in new_list:
 print("Reversed list is: ", new_list)
 
 
-# Exercise nr.21
+# Exercise nr.23
 # Use else block to display a message "Done" after successful execution of for loop.
 
 for i in range(1, 6):
@@ -306,7 +327,7 @@ else:
     print("Done!")
 
 
-# Exercise nr.22
+# Exercise nr.24
 # Write a program to display all prime numbers within a range
 # ex: 29 is a prime number because no other whole number multiply together to make it.
 
@@ -329,7 +350,7 @@ for num in range(start, end+1):
 
 
 
-# Exercise nr.22
+# Exercise nr.25
 # Display Fibonacci series up to 10 terms
 
 num1 = 0
@@ -348,8 +369,9 @@ for i in range(10):
 print(res)
 
 
-# Exercise nr.23
+# Exercise nr.26
 # Find the factorial of a given number
+# ex: 5! = 5 x 4 x 3 x 2 x 1= 120
 
 num = int(input("Enter a number to find it's factorial: "))
 factorial = 1
