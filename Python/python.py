@@ -1,3 +1,29 @@
+# ------------------------------- List, Tuple, Sets, and Dictionaries --------------------------
+# List, can be modified
+list = [1, 2, 3]
+print(list[0])
+
+# Tuple, can't be modified
+tuple = (1, 2, 3)
+print(tuple[1])
+
+# Sets, you can add and remove elements from sets
+# but, you can't have duplicate elements and has not order.
+sets = {1, 2, 3}
+
+# Dictionaries are used to store data values in key:value pairs.
+# A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+dictionary = {
+    "brand": "Mercedes",
+    "model": "E Class",
+    "year": 2021
+}
+print(dictionary)
+print(dictionary.keys())
+print(dictionary.values())
+
+
+
 # Exercise nr.1
 # Use two integer numbers: if their substracting is negative return the result,othervise return their sum.
 def substrct_or_sum(num1, num2):
@@ -512,7 +538,7 @@ for i in x:
 
 # --------------------------------------Python OOP-------------------------
 
-# Ex:
+# Ex: Object Oriented Programming
 class Student:
     def __init__(self, name, age, grades):
         self.name = name
@@ -530,6 +556,34 @@ print('Average grade is', "%.2f" % obj1.average_grade())
 obj2 = Student("Smith", 25, (64, 75, 81))
 print(obj2.name, 'has', obj2.age, 'years old.')
 print('Average grade is', "%.2f" % obj2.average_grade())
+
+
+
+# Ex: Object Oriented Programming
+class Store:
+    def __init__(self, name):
+        self.name = name
+        self.items = []
+
+    def add_item(self, name, price):
+        item = {'name': name, 'price': price}
+        self.items.append(item)
+        return self.items
+
+    def stock_price(self):
+        # Add together all item prices in self.items and return the total.
+        total = 0
+        for item in self.items:
+            total += item['price']
+        return total
+
+
+store = Store('JD')
+print(store.name)
+print(store.add_item('adidas', 12))
+print(store.add_item('nike', 22))
+print(store.add_item('diesel', 24))
+print(store.stock_price())
 
 
 
