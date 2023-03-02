@@ -435,7 +435,7 @@ print('Multiplication of number is: ', mul)
 print('Division of number is: ', div)
         
     
-# Exercise nr.30
+# Exercise nr.31
 # Assign different name to function and call it through the new name.
 
 def student(name, age):
@@ -445,3 +445,7 @@ def student(name, age):
 student('Bod', 23)
 new_student = student
 new_student('Steve', 34)
+
+
+# Exercise nr.32
+# Generate a Pytho list of all even numbers between 2 and 20
