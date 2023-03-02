@@ -387,6 +387,14 @@ else:
     print("The factorial number of", num, "is", factorial)
 
 
+# Exercise nr.27
+# Calculate the cube of all numbers from 1 to a given number.
+number = int(input('Enter the number: '))
+
+for num in range(1, number+1):
+    print('Current number is: ', num, 'and the cube is: ', (num * num * num))
+
+
     # --------------------------- Python Functions -------------------
 
 
