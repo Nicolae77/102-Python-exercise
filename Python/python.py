@@ -10,6 +10,10 @@ print(tuple[1])
 # Sets, you can add and remove elements from sets
 # but, you can't have duplicate elements and has not order.
 sets = {1, 2, 3}
+print(sets)
+print(len(sets))
+for i in sets:
+    print(i, end=' ')
 
 # Dictionaries are used to store data values in key:value pairs.
 # A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
@@ -39,7 +43,6 @@ print('The result is:', result)
 # second condition
 result = substrct_or_sum(10, 9)
 print('The result is:', result)
-#***********************************************************************************************************************
 
 
 # Exercise nr.2
@@ -52,7 +55,7 @@ for i in range(0, 6):
     print('Curent number', i , 'Previous number', previus_num, 'Sum: ', num_sum)
     # modify previous number and set it to the current number
     previus_num = i
-#************************************************************************************************************************
+
 
 
 # Exercise nr.3
@@ -78,7 +81,7 @@ for i in range(0, size_input - 1, 2):
 x = list(user_input)
 for i in x[0::2]:
     print(i)
-#************************************************************************************************************************
+
 
 
 # Exercise nr.4
@@ -91,7 +94,7 @@ def remove_chars(text, n):
 print("Removing characters from a string")
 print(remove_chars('python', 4))
 print(remove_chars('python', 2))
-#************************************************************************************************************************
+
 
 # Exercise nr.5
 # Check if the first and last number of a list is the same.
