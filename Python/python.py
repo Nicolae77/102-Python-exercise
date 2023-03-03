@@ -539,6 +539,15 @@ result = ''.join(word + word1)
 print(result)
 
 
+# Exercise:
+# Joining with empty separator
+lst = ['P', 'y', 't', 'h', 'o', 'n']
+print(''.join(lst))
+
+# Joining with string
+name = 'Nick'
+print("$".join(name))
+
 # -----------------------------Python Data Structure--------------------
 
 
