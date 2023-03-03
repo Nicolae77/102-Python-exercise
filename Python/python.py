@@ -583,6 +583,13 @@ for i in text:
 print('Result is: ', dictionary)
 
 
+# Exercise nr.39
+# Reverse a given string
+text = 'Pythonanywhere'
+reversed_text = ''.join(reversed(text))
+print(reversed_text)
+
+
 # -----------------------------Python Data Structure--------------------
 
 
