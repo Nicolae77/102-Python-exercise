@@ -548,6 +548,27 @@ print(''.join(lst))
 name = 'Nick'
 print("$".join(name))
 
+
+# Exercise nr.37
+# Count all letters, digits, and special symbols from a given string
+def find_char_digits_symbols(text):
+    char_count = 0
+    digit_count = 0
+    symbol_count = 0
+    for i in text:
+        if i.isalpha():
+            char_count += 1
+        elif i.isdigit():
+            digit_count += 1
+        else:
+            symbol_count += 1
+    print(' Chars = ', char_count, '\n', 'Digits = ', digit_count, '\n', 'Symbols =', symbol_count)
+
+
+text = 'PythonAnywhere123456!£$%^&*'
+print("Total counts of Chars, Digits, and Symbols ")
+find_char_digits_symbols(text)
+
 # -----------------------------Python Data Structure--------------------
 
 
