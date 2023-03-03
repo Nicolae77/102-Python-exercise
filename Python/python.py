@@ -569,6 +569,20 @@ text = 'PythonAnywhere123456!£$%^&*'
 print("Total counts of Chars, Digits, and Symbols ")
 find_char_digits_symbols(text)
 
+
+
+# Exercise nr.38
+# Write a program to count all characters within a string.
+text = 'Pythonanywhere'
+# create an empty dictionary for result
+dictionary = dict()
+for i in text:
+    count = text.count(i)
+    # add / update the count of a character
+    dictionary[i] = count
+print('Result is: ', dictionary)
+
+
 # -----------------------------Python Data Structure--------------------
 
 
