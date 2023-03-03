@@ -497,6 +497,38 @@ for i in x:
 
 # -----------------------------Python String Exercise--------------------
 # Exercise nr.34
+# Write a program to create a new string made of an input string’s first, middle, and last character.
+name = 'Nicolae'
+print('Original string is: ', name)
+# Get the first character from string
+result = name[0]
+print(result)
+# Get string size
+l = len(name)
+# Get middle index size
+mi = int(l / 2)
+print(mi)
+# add first and middle character
+result = result + name[mi]
+print(result)
+# Get last character and add it to result
+result = result + name[l - 1]
+print(result)
+
+
+# Exercise nr.35
+# Write a program to create a new string made of the middle three characters of an input.
+def get_middle_three_char(name):
+    # get middle index number
+    mi = int(len(name) / 2)
+    # use string slicing to get result
+    result = name[mi - 1:mi + 2]
+    print(result)
+
+
+get_middle_three_char('CaldaNicRasan')
+get_middle_three_char('CaldaBgdRasan')
+
 
 
 
