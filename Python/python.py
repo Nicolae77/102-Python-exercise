@@ -531,9 +531,12 @@ get_middle_three_char('CaldaBgdRasan')
 
 
 
-
-
-
+# Exercise nr.36
+# Write a program to link two string with join method.
+word = 'Python'
+word1 = ', Is the best programming language.'
+result = ''.join(word + word1)
+print(result)
 
 
 # -----------------------------Python Data Structure--------------------
