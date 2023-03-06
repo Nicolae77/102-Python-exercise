@@ -590,6 +590,26 @@ reversed_text = ''.join(reversed(text))
 print(reversed_text)
 
 
+# Exercise nr.40
+# Calculate the sum and average of the digits present in a string.
+
+text = 'Python2469@mail.com'
+sum = 0
+num = 0
+
+for i in text:
+    if i.isdigit():
+        sum += int(i)
+        num += 1
+print('Sum is: ', sum)
+print('Numbers are: ', num)
+
+average = sum / num
+print('Average is: ', average)
+    
+
+
+
 # -----------------------------Python Data Structure--------------------
 
 
