@@ -609,6 +609,24 @@ print('Average is: ', average)
 
 
 # Exercise nr.41
+# Remove empty string from a list of string.
+
+lst = ['Python', '', 'Anywhere', '', 'Is', '', 'Cool']
+new_lst = []
+for i in lst:
+    if i != '':
+        new_lst.append(i)
+print(new_lst)
+
+
+# Exercise nr.42
+# Remove special symbols from a string.
+
+str_ing = '?!/Nick &*is ()developer'
+
+for i in str_ing:
+    if i.isalpha():
+        print(i, end='')
 
 
     
