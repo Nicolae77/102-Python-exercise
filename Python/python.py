@@ -606,6 +606,11 @@ print('Numbers are: ', num)
 
 average = sum / num
 print('Average is: ', average)
+
+
+# Exercise nr.41
+
+
     
 
 
