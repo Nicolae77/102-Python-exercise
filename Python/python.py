@@ -701,6 +701,16 @@ for i in common:
 print(set1)
 
 
+# Exercise nr.48
+# Iterate a given list and check if a given element exists as a key’s value
+# in a dictionary. If not, delete it from the list
+lst = [12, 34, 56, 68, 44]
+dct = {'Mike': 12, 'Smith': 44, 'James': 68}
+
+lst = [i for i in lst if i in dct.values()]
+print(lst)
+
+
 
 
 # -----------------------------Python List Exercise--------------------
