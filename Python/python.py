@@ -688,6 +688,17 @@ result_set = set(result)
 print(result_set)
 
 
+# Exercise nr.47
+# Find the common of two sets and remove those
+# elements from the first set
+set1 = {12, 10, 14, 16, 19, 25}
+set2 = {13, 19, 34, 25}
+
+common = set1.intersection(set2)
+print(common)
+for i in common:
+    set1.remove(i)
+print(set1)
 
 
 
