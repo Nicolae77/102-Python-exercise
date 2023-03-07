@@ -725,6 +725,19 @@ for i in test.values():
 print(test_list)
 
 
+# Exercise nr.50
+# Remove duplicates from a list and create a tuple and find the minimum and maximum number
+lst = [12, 34, 56, 67, 12, 67, 43, 95, 67, 56]
+print('Initial list: ',lst)
+# return unique items
+uniq_items = set(lst)
+print('Unique items are: ', uniq_items)
+# create a tuple
+t = tuple(uniq_items)
+print('Tuple is: ', t)
+# calculate min and max of a tuple
+print('Minimum number is: ', min(t))
+print('Maximum number is: ', max(t))
 
 
 # -----------------------------Python List Exercise--------------------
