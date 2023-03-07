@@ -712,6 +712,20 @@ print(lst)
 
 
 
+# Exercise nr.49
+# Get all values  from the dictionary and add them to a list but don’t add duplicates
+test = {'Mark': 67, 'Bob': 88, 'Smith': 79, 'Angela': 88, 'Nick': 67, 'Steve': 45}
+print(list(test.values()))
+test_list = list()
+# iterate dict value
+for i in test.values():
+    # check if value not present in a list
+    if i not in test_list:
+        test_list.append(i)
+print(test_list)
+
+
+
 
 # -----------------------------Python List Exercise--------------------
 
