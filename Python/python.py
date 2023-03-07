@@ -664,6 +664,20 @@ lst.append(element)
 print('List after adding element at last index', lst)
 
 
+# Exercise nr.45
+# Count the occurrence of each element from a list
+lst = [1, 2, 4, 3, 5, 7, 11, 3, 2, 46, 7, 8, 6, 4, 1, 2]
+count_dict = dict()
+
+for i in lst:
+    if i in count_dict:
+        count_dict[i] += 1
+    else:
+        count_dict[i] = 1
+
+print(count_dict)
+
+
 
 
 
