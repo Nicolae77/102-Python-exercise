@@ -678,6 +678,16 @@ for i in lst:
 print(count_dict)
 
 
+# Exercise nr.46
+# Create a Python set such that it shows the element from both lists in a pair
+lst1 = [1, 3, 5, 7, 9]
+lst2 = [2, 4, 6, 8, 10]
+
+result = zip(lst1, lst2)
+result_set = set(result)
+print(result_set)
+
+
 
 
 
