@@ -648,6 +648,22 @@ l3.extend(even_elements)
 print('Third list is: ', l3)
 
 
+# Exercise nr.44
+# Write a program to remove the item at index 2 and add it to the index 0,
+# and at the end of the list.
+lst = [1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+print('Initial list is: ', lst)
+# pop(), Removes and return the item at the given index from the list
+element = lst.pop(2)
+print('List after removing element at index 2', lst)
+# insert(), add the item at the specific position in the list
+lst.insert(0, element)
+print('List after adding element at index 0', lst)
+# append(), add item at the end of the list
+lst.append(element)
+print('List after adding element at last index', lst)
+
+
 
 
 
