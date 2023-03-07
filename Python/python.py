@@ -629,12 +629,23 @@ for i in str_ing:
         print(i, end='')
 
 
-    
-
-
-
 # -----------------------------Python Data Structure--------------------
 
+# Exercise nr.43
+# From two lists l1,l2, write a program to create a third list
+# by picking an odd-index element from l1, and even element from l2.
+l1 = [3, 6, 9, 12, 15, 18, 21]
+l2 = [4, 8, 12, 16, 20, 24, 28]
+l3 = []
+# Start from 1st index with step 2
+odd_elements = l1[1::2]
+print('Elements at odd-index position from l1 are: ', odd_elements)
+# Start from 0 index with step 2
+even_elements = l2[0::2]
+print('Elements at even-index position from l2 are: ', even_elements)
+l3.extend(odd_elements)
+l3.extend(even_elements)
+print('Third list is: ', l3)
 
 
 
