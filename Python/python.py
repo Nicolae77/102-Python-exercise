@@ -753,6 +753,12 @@ print(lst)
 
 
 # Exercise nr.52
+# Concatenate two lists index-wise
+
+lst1 = ['Ni', 'i', 'web']
+lst2 = ['ck', 's', 'developer']
+lst3 = [i + j for i, j in zip(lst1, lst2)]
+print(lst3)
 
 
 
