@@ -741,6 +741,18 @@ print('Maximum number is: ', max(t))
 
 
 # -----------------------------Python List Exercise--------------------
+# Exercise nr.51
+# Reverse a list in Python
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# first solution
+reverse_lst = reversed(lst)
+print(list(reverse_lst))
+# second solution
+lst = lst[::-1]
+print(lst)
+
+
+# Exercise nr.52
 
 
 
