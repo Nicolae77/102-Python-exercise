@@ -789,6 +789,14 @@ print(lst[3])
 lst[3][1] = 50
 print(lst)
 
+
+# Exercise nr.56
+# Extend nested list by adding the second list in empty list
+lst1 = ['Hello', ['My name is', []]]
+lst2 = ['Bob']
+lst1[1][1].extend(lst2)
+print(lst1)
+
 # -----------------------------Python Dictionary Exercise----------------
 
 
