@@ -761,6 +761,13 @@ lst3 = [i + j for i, j in zip(lst1, lst2)]
 print(lst3)
 
 
+# Exercise nr.53
+# Create a new list to turn every item of a given list into its square
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+square_list = []
+for i in numbers:
+    square_list.append(i * i)
+print(square_list)
 
 
 
