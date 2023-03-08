@@ -770,6 +770,15 @@ for i in numbers:
 print(square_list)
 
 
+# Exercise nr.54
+# Remove empty list from the list string
+
+lst1 = ['Steve', '', 'Bob', 'Mark', '', 'John']
+lst2 = list(filter(None, lst1))
+print(lst2)
+
+
+# Exercise nr.55
 
 
 # -----------------------------Python Dictionary Exercise----------------
