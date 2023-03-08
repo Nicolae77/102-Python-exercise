@@ -797,6 +797,30 @@ lst2 = ['Bob']
 lst1[1][1].extend(lst2)
 print(lst1)
 
+
+# Exercise nr.57
+ # Write a program to find value 70 in the list, and if it is present,
+ # replace it with 60.
+
+lst = [10, 20, 30, 40, 50, 70]
+# get the occurrence index
+idx = lst.index(70)
+print(idx)
+# update item present at location
+lst[idx] = 60
+print(lst)
+
+#     OR
+
+lst = [10, 20, 30, 40, 50, 70]
+print(lst)
+if 70 in lst:
+    idx = lst.index(70)
+    lst[idx] = 60
+    print(lst)
+
+
+
 # -----------------------------Python Dictionary Exercise----------------
 
 
