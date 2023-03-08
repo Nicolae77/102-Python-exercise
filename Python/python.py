@@ -820,6 +820,16 @@ if 70 in lst:
     print(lst)
 
 
+# Exercise nr.58
+# Remove all occurrences of a specific item from a list.
+
+lst = [1, 2, 3, 4, 5, 2, 1, 6, 8, 3, 9, 10]
+while 1 in lst and 2 in lst and 3 in lst:
+    lst.remove(1)
+    lst.remove(2)
+    lst.remove(3)
+print(lst)
+
 
 # -----------------------------Python Dictionary Exercise----------------
 
