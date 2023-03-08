@@ -779,7 +779,15 @@ print(lst2)
 
 
 # Exercise nr.55
+# Write a program to add 50 after 40 in the following list.
 
+lst = [10, 20, 30, [40, [], 60], 70, 80]
+print(lst[0])
+print(lst[1])
+print(lst[2])
+print(lst[3])
+lst[3][1] = 50
+print(lst)
 
 # -----------------------------Python Dictionary Exercise----------------
 
