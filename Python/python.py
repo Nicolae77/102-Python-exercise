@@ -839,9 +839,14 @@ keys = ['Bob', 'Smith', 'Mark']
 value = [67, 78, 89]
 dictionary_result = dict(zip(keys, value))
 print(dictionary_result)
+#   OR
+new_dict = dict()
+for i in range(len(keys)):
+    new_dict.update({keys[i]: value[i]})
+print(new_dict)
 
 
-
+# Exercise nr.60
 # -----------------------------Python Set Exercise----------------------
 
 
