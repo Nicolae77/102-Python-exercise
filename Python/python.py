@@ -871,6 +871,21 @@ print(dict_student['class']['student'])
 print(dict_student['class']['student']['marks'])
 print(dict_student['class']['student']['marks']['maths'])
 
+
+# Exercise nr.62
+# Create a dictionary by extracting yhe keys from a given dictionary
+dict1 = {
+    'name': 'Mark',
+    'address': 'London',
+    'age': 34,
+    'salary': 1800
+}
+# keys to extract
+keys = ['name', 'age']
+# dictionary comprehension
+dict2 = {k: dict1[k] for k in keys}
+print(dict2)
+
 # -----------------------------Python Set Exercise----------------------
 
 
