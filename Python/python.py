@@ -833,7 +833,12 @@ print(lst)
 
 # -----------------------------Python Dictionary Exercise----------------
 
-
+# Exercise nr.59
+# Convert two lists into a dictionary
+keys = ['Bob', 'Smith', 'Mark']
+value = [67, 78, 89]
+dictionary_result = dict(zip(keys, value))
+print(dictionary_result)
 
 
 
