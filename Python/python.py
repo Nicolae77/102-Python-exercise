@@ -926,6 +926,20 @@ print(dict1)
 
 
 # Exercise nr.66
+# Get the key of minimum and maximum value from the following dictionary
+dict1 = {
+    'Bob': 56,
+    'Steve': 62,
+    'Mark': 88,
+    'John': 91
+}
+
+print(min(dict1, key=dict1.get), 'has the minimum value')
+print(max(dict1, key=dict1.get), 'has the maximum value')
+
+
+# Exercise nr.67
+
 
 # -----------------------------Python Set Exercise----------------------
 
