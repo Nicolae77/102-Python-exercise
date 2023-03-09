@@ -847,6 +847,30 @@ print(new_dict)
 
 
 # Exercise nr.60
+# Merge two dictionaries into one
+dict1 = {'student1': 10, 'student2': 20, 'student3': 30}
+dict2 = {'student4': 40, 'student5': 50, 'student6': 60}
+dict3 = {**dict1, **dict2}
+print(dict3)
+
+
+# Exercise nr.61
+# Print the value of key 'maths' from the following dictionaries
+dict_student = {'class': {
+    'student': {
+        'name': 'Steve',
+        'marks': {
+            'maths': 70,
+            'history': 90
+        }
+    }
+  }
+}
+print(dict_student['class'])
+print(dict_student['class']['student'])
+print(dict_student['class']['student']['marks'])
+print(dict_student['class']['student']['marks']['maths'])
+
 # -----------------------------Python Set Exercise----------------------
 
 
