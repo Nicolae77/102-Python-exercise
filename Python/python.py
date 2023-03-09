@@ -886,6 +886,22 @@ keys = ['name', 'age']
 dict2 = {k: dict1[k] for k in keys}
 print(dict2)
 
+
+# Exercise nr.63
+# Delete a list of keys from a dictionary
+dict1 = {
+    'name': 'Mark',
+    'address': 'London',
+    'age': 34,
+    'salary': 1800
+}
+
+keys = ['name', 'salary', 'age']
+
+for k in keys:
+    dict1.pop(k)
+print(dict1)
+
 # -----------------------------Python Set Exercise----------------------
 
 
