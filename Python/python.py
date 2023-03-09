@@ -911,7 +911,21 @@ if num in dict1.values():
     print(num, 'exist in dict1')
 
 
-# Exercise nr.65   
+# Exercise nr.65 
+# # Write a program to rename a key in the following dictionary
+dict1 = {
+    'name': 'Mark',
+    'address': 'London',
+    'age': 34,
+    'salary': 1800
+}
+
+dict1['city'] = dict1.pop('address')
+
+print(dict1)  
+
+
+# Exercise nr.66
 
 # -----------------------------Python Set Exercise----------------------
 
