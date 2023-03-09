@@ -902,6 +902,17 @@ for k in keys:
     dict1.pop(k)
 print(dict1)
 
+
+# Exercise nr.64
+# write a program to check if value 10 exists in the following dictionary
+dict1 = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
+num = 10
+if num in dict1.values():
+    print(num, 'exist in dict1')
+
+
+# Exercise nr.65   
+
 # -----------------------------Python Set Exercise----------------------
 
 
