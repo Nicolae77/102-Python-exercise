@@ -938,12 +938,12 @@ print(min(dict1, key=dict1.get), 'has the minimum value')
 print(max(dict1, key=dict1.get), 'has the maximum value')
 
 
-# Exercise nr.67
+
 
 
 # -----------------------------Python Set Exercise----------------------
 
-
+# Exercise nr.67
 
 
 
