@@ -6,6 +6,8 @@ print(list[0])
 # Tuple, can't be modified
 tuple = (1, 2, 3)
 print(tuple[1])
+# tuple with single item, remember comma at the end.
+tuple = (1,)
 
 # Sets, you can add and remove elements from sets
 # but, you can't have duplicate elements and has not order.
@@ -978,23 +980,70 @@ set1.difference_update(set2)
 print(set1)
 
 
+
+# -----------------------------Python Tuple Exercise---------------
 # Exercise nr.71
+# Reverse a tuple
+tpl1 = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+tpl2 = tpl1[::-1]
+print(tpl2)
 
 
+# Exercise nr.72
+# Access value 5 from the tuple
+tpl1 = ('Bob', 2, [3, 4, 5], (6, 7, 8, 9))
+tpl2 = tpl1[2][2]
+print(tpl2)
 
 
+# Exercise nr.73
+# Iterate in tuple
+tpl1 = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+for i in tpl1:
+    print(i, end=' ')
 
 
+# Exercise nr.74
+# Swap two tuples
+tpl1 = (10, 20)
+tpl2 = (30, 40)
+tpl1, tpl2 = tpl2, tpl1
+print(tpl1)
+print(tpl2)
 
 
+# Exercise nr.75
+# Copy specific elements from one tuple to a new tuple
+tpl1 = (1, 2, 3, 4, 5, 6, 7)
+tpl2 = tpl1[1]
+tpl3 = tpl1[3:-2]
+tpl4 = tpl1[2:]
+print(tpl2)
+print(tpl3)
+print(tpl4)
 
 
+# Exercise nr.76
+# Tuple can not be modified, but nested tuple with a list, only list can be modified.
+tpl1 = (1, 2, 3, [4, 5, 6, 8], 8, 9)
+tpl1[3][3] = 7
+print(tpl1)
 
+
+# Exercise nr.77
+# Sort a tuple of tuples by 2nd item
+tpl1 = (('b', 2), ('a', 1), ('d', 4), ('c', 3))
+tpl1 = tuple(sorted(list(tpl1), key=lambda x: x[1]))
+print(tpl1)
+
+
+# Exercise nr.78
 
 
 
 
 # -----------------------------Python Date and Time Exercise---------------
+
 
 
 
