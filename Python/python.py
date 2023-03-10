@@ -961,6 +961,13 @@ set3 = set1.intersection(set2)
 print(set3)
 
 
+# Exercise nr.69
+# Write a Python program to return a new set with unique
+# items from both sets by removing duplicates.
+set1 = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+set2 = {2, 4, 6, 8}
+set3 = set1.union(set2)
+print(set3)
 
 
 
