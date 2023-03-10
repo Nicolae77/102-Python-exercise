@@ -1038,6 +1038,27 @@ print(tpl1)
 
 
 # Exercise nr.78
+# Counts the number of occurrences of item 10 from a tuple
+tpl1 = (10, 20, 30, 40, 50, 10, 60, 10, 20, 10)
+total = 0
+for i in tpl1:
+    if i == 10:
+        total += 1
+print(total)
+
+# OR
+result = tpl1.count(10)
+print(result)
+
+
+# Exercise nr.79
+# Check if all items in the tuple are the same
+def check(t):
+    return all(i == t[0] for i in t)
+
+
+tpl1 = (77, 77, 77, 77)
+print(check(tpl1))
 
 
 
