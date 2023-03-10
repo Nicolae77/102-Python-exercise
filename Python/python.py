@@ -944,6 +944,35 @@ print(max(dict1, key=dict1.get), 'has the maximum value')
 # -----------------------------Python Set Exercise----------------------
 
 # Exercise nr.67
+# Write a program to add a list of element to a set.
+#  set
+set1 = {'Bob', 'James', 'Steve'}
+# list
+lst1 = ['Nick', 'John', 'Mark']
+set1.update(lst1)
+print(set1)
+
+
+# Exercise nr.68
+# Return a new set of identical items from two sets.
+set1 = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+set2 = {2, 4, 6, 8}
+set3 = set1.intersection(set2)
+print(set3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
