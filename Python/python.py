@@ -1075,6 +1075,18 @@ print(t)
 
 
 # --------------------------------------Python OOP-------------------------
+# Exercise nr.81
+# Create a Class with instance attributes
+class Car:
+    def __init__(self, model, series, mileage):
+        self.model = model
+        self.series = series
+        self.mileage = mileage
+
+
+car_detail = Car('BMW', 5, 250000)
+print(car_detail.model, 'series', car_detail.series, 'has', car_detail.mileage, 'km')
+
 
 # Ex: Object Oriented Programming
 class Student:
