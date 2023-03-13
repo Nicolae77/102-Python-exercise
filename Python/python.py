@@ -1064,7 +1064,11 @@ print(check(tpl1))
 
 
 # -----------------------------Python Date and Time Exercise---------------
-
+# Exercise nr.80
+# Print current date and time in Python
+import datetime
+t = datetime.datetime.now()
+print(t)
 
 
 
