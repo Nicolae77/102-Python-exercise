@@ -1076,6 +1076,13 @@ print(t)
 
 # --------------------------------------Python OOP-------------------------
 # Exercise nr.81
+# Create a Car class without any variables and methods
+class Car:
+    pass
+
+
+
+# Exercise nr.82
 # Create a Class with instance attributes
 class Car:
     def __init__(self, model, series, mileage):
