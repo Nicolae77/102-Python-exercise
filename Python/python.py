@@ -1080,8 +1080,6 @@ print(t)
 class Car:
     pass
 
-
-
 # Exercise nr.82
 # Create a Class with instance attributes
 class Car:
@@ -1095,7 +1093,9 @@ car_detail = Car('BMW', 5, 250000)
 print(car_detail.model, 'series', car_detail.series, 'has', car_detail.mileage, 'km')
 
 
-# Ex: Object Oriented Programming
+# Exercise nr.83
+# Ex: Object Oriented Programming. 
+# Create a Studend class with method.
 class Student:
     def __init__(self, name, age, grades):
         self.name = name
@@ -1115,8 +1115,9 @@ print(obj2.name, 'has', obj2.age, 'years old.')
 print('Average grade is', "%.2f" % obj2.average_grade())
 
 
-
+# Exercise nr.84
 # Ex: Object Oriented Programming
+# Create a Store class with multiple methods
 class Store:
     def __init__(self, name):
         self.name = name
@@ -1143,6 +1144,26 @@ print(store.add_item('diesel', 24))
 print(store.stock_price())
 
 
+# Exercise nr.85
+# Create a child class Shop,
+# that will inherit all of the variables and methods of the Store class
+class Store:
+    def __init__(self, name, price, size):
+        self.name = name
+        self.price = price
+        self.size = size
+
+
+store_object = Store('Balenciage', 250, 10)
+print(store_object.name, store_object.price, store_object.size)
+
+
+class Shop(Store):
+    pass
+
+
+shop_object = Shop('Gucci', 420, 9)
+print(shop_object.name, shop_object.price, shop_object.size)
 
 # -----------------------------Python JSON Exercise--------------------
 
