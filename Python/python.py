@@ -1166,6 +1166,13 @@ shop_object = Shop('Gucci', 420, 9)
 print(shop_object.name, shop_object.price, shop_object.size)
 
 # -----------------------------Python JSON Exercise--------------------
+# Exercise nr.86
+# Convert the following dictionary into JSON
+import json
+data = {'Bob': 67, 'Mike': 78, 'Steve': 91}
+
+json_data = json.dumps(data)
+print(json_data)
 
 
  
