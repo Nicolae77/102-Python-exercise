@@ -1175,6 +1175,15 @@ json_data = json.dumps(data)
 print(json_data)
 
 
+# Exercise nr.87
+# Access the value of Mike from the following JSON
+import json
+json_data = """{"Bob": 67, "Mike": 78, "Steve": 91}"""
+data = json.loads(json_data)
+print(data)
+print(data['Mike'])
+
+
  
 
 # -----------------------------Python NumPy Exercise--------------------
