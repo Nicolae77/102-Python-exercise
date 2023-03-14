@@ -1184,6 +1184,24 @@ print(data)
 print(data['Mike'])
 
 
+# Exercise nr.88
+# Access the nested key ‘salary’ from the following JSON
+import json
+
+data_Json = """{ 
+   "company":{ 
+      "employee":{ 
+         "name":"Mike",
+         "pay":{ 
+            "salary":5000,
+            "bonus":400
+         }
+      }
+   }
+}"""
+
+data = json.loads(data_Json)
+print(data['company']['employee']['pay']['salary'])
  
 
 # -----------------------------Python NumPy Exercise--------------------
