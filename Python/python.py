@@ -1230,7 +1230,16 @@ print (sampleArray)
 
 
 # Exercise nr.91
+# Return array of items by taking the second column from all rows
+import numpy
 
+x = numpy.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print("Printing Input Array")
+print(x)
+
+print("\n Printing array of items in the third column from all rows")
+newArray = x[..., 1]
+print(newArray)
 
 
 # -----------------------------Python Pandas Exercise--------------------
