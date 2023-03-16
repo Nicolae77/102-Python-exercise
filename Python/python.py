@@ -1248,6 +1248,7 @@ print(newArray)
 import pandas as pd
 df = pd.read_csv("Cars_data.csv")
 print(df.head())
+# Print out the last 5 lines from csv file
 print(df.tail())
 
 
