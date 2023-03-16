@@ -1243,7 +1243,12 @@ print(newArray)
 
 
 # -----------------------------Python Pandas Exercise--------------------
-
+# Exercise nr.92
+# Print out the top 5 lines from csv file
+import pandas as pd
+df = pd.read_csv("Cars_data.csv")
+print(df.head())
+print(df.tail())
 
 
 # -----------------------------Python Matlib Exercise--------------------
