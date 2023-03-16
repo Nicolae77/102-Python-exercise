@@ -1252,6 +1252,15 @@ print(df.head())
 print(df.tail())
 
 
+# Exercise nr.93
+# Print all detail about Mark from user_data.csv file.
+import pandas as pd
+df = pd.read_csv("user_data.csv")
+user = df.groupby('first_name')
+mark = user.get_group('Mark')
+print(mark)
+
+
 # -----------------------------Python Matlib Exercise--------------------
 
 
