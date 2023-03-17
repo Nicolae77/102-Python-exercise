@@ -1243,6 +1243,7 @@ print(newArray)
 
 
 # -----------------------------Python Pandas Exercise--------------------
+# Pandas is a handy and useful data-structure tool for analyzing large and complex data.
 # Exercise nr.92
 # Print out the top 5 lines from csv file
 import pandas as pd
@@ -1261,8 +1262,9 @@ mark = user.get_group('Mark')
 print(mark)
 
 
-# -----------------------------Python Matlib Exercise--------------------
-
+# -----------------------------Python Matplotlib Exercise--------------------
+#Matplotlib is a Python 2D plotting library that produces high-quality charts and figures, which helps us visualize extensive data to understand better.
+# Exercise nr.94
 
 
 # -----------------------------Random Data Generator Exercise-------------
