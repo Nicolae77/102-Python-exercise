@@ -1265,6 +1265,19 @@ print(mark)
 # -----------------------------Python Matplotlib Exercise--------------------
 #Matplotlib is a Python 2D plotting library that produces high-quality charts and figures, which helps us visualize extensive data to understand better.
 # Exercise nr.94
+# Show in 2D graph the salary for every month from new_data.csv file
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.read_csv("new_data.csv")
+salaryList = df['salary'].to_list()
+monthList = df['month'].to_list()
+plt.plot(monthList, salaryList, label='Salary and months')
+plt.xlabel('Month number')
+plt.ylabel('Salary')
+plt.xticks(monthList)
+plt.title('Salary in every month')
+plt.yticks([1, 2, 3, 4])
+plt.show()
 
 
 # -----------------------------Random Data Generator Exercise-------------
