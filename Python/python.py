@@ -1280,6 +1280,23 @@ plt.yticks([1, 2, 3, 4])
 plt.show()
 
 
+# Exercise nr.95
+# Calculate the total hours for each product and show it using Pie chart.
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.read_csv("data.csv")
+monthList = df['month'].to_list()
+labels = ['Entertainment', 'Crime & Thriller', 'Comedy',
+          'Reality', 'Documentary', 'Travel', 'Sport']
+data = [df['entertainment'].sum(), df['crime & thriller'].sum(), df['comedy'].sum(),
+        df['reality'].sum(), df['documentary'].sum(), df['travel'].sum(), df['sport'].sum()]
+plt.axis("equal")
+plt.pie(data, labels=labels, autopct='%1.1f%%')
+plt.legend(loc='lower right')
+plt.title('Data for Year 2022')
+plt.show()
+
+
 # -----------------------------Random Data Generator Exercise-------------
 
 
