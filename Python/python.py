@@ -1326,6 +1326,21 @@ winner = random.sample(lottery_tickets, 3)
 print("Lucky 3 lottery tickets are", winner)
 
 
+# Exercise nr.99
+# Generate random String of length 10
+import random
+import string
+
+
+def randString(strLength):
+    # Generate a random string of 10 characters
+    letters = string.ascii_letters
+    return ''.join(random.choice(letters) for i in range(strLength))
+
+
+print("Random String is ", randString(10))
+
+
 
 
 # -----------------------------Python Database Exercise--------------------
