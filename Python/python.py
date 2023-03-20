@@ -1298,6 +1298,17 @@ plt.show()
 
 
 # -----------------------------Random Data Generator Exercise-------------
+# Exercise nr.96
+# Generate 10 random lottery tickets and pick 3 lucky tickets from it as a winner.
+import random
+lottery_tickets = []
+# get 10 tickets
+for i in range(10):
+    # ticket number between 1 and 999
+    lottery_tickets.append(random.randrange(1, 999))
+# pick 3 luck tickets
+winner = random.sample(lottery_tickets, 3)
+print("Lucky 3 lottery tickets are", winner)
 
 
 
