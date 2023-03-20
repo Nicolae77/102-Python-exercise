@@ -1299,6 +1299,13 @@ plt.show()
 
 # -----------------------------Random Data Generator Exercise-------------
 # Exercise nr.96
+# Generate 3 random integers between 10 and 1000 which is divisible by 2.
+import random
+for num in range(3):
+    print(random.randrange(10, 1000, 2), end=', ')
+
+
+# Exercise nr.97
 # Generate 10 random lottery tickets and pick 3 lucky tickets from it as a winner.
 import random
 lottery_tickets = []
