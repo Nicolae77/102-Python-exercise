@@ -1306,6 +1306,14 @@ for num in range(3):
 
 
 # Exercise nr.97
+# Pick a random character from a given String
+import random
+text = input('Enter a word: ')
+result = random.choice(text)
+print('Random char from selected text is: ', result)
+
+
+# Exercise nr.98
 # Generate 10 random lottery tickets and pick 3 lucky tickets from it as a winner.
 import random
 lottery_tickets = []
