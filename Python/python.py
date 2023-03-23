@@ -1361,8 +1361,20 @@ def getRandomDate(startDate, endDate ):
 print ("Random Date = ", getRandomDate("1/1/2016", "12/12/2018"))
 
 
-# -----------------------------Python Database Exercise--------------------
 # Exercise nr.101
+# Roll dice in such a way that every time you get the same number
+import random
+
+dice = [1, 2, 3, 4, 5, 6]
+print("Randomly selecting same number of a dice")
+for i in range(5):
+    random.seed(25)
+    print(random.choice(dice))
+
+
+
+# -----------------------------Python Database Exercise--------------------
+# Exercise nr.102
 import mysql.connector
 from mysql.connector import cursor
 
