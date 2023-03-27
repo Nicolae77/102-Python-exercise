@@ -1372,6 +1372,30 @@ for i in range(5):
     print(random.choice(dice))
 
 
+# Exercise 
+
+import random
+random_number = random.randint(1, 10)
+
+while True:
+    guess = int(input("Pick a number from 1 to 10: "))
+    if guess < random_number:
+        print("TOO LOW!")
+    elif guess > random_number:
+        print("TOO HIGH!")
+    else:
+        print("YOU WON!!!")
+        play_again = input("Do you want to play again? (yes/no) ")
+        if play_again == "yes":
+            random_number = random.randint(1, 10)
+            guess = None
+        else:
+            print("Thanks you for playing!")
+            break
+print(f"{random_number} is the random number") 
+
+
+
 
 # -----------------------------Python Database Exercise--------------------
 # Exercise nr.102
